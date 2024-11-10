@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="Logo.png" alt="Solar Logo" class="logo">
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blackholes.html">Blackholes</a></li>
+            <li><a href="/astronaut.html">Astronaut</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  
+    <!-- Contact Form -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </section>
+
+    <footer>
+    <section class="f2">
+        
+        <a href="mailto:solarsupport@gmail.com">solarsupport@gmail.com</a>
+        <p>&copy; 2024 Solar. Inspiring Curiosity Beyond Earth.</p>
+         <p>Contact: +91 11245 67321</p>
+    </section>
+    </footer>
+
+    <script src="/contact.js"></script>
+</body>
+</html>
